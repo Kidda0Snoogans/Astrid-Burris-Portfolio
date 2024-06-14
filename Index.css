@@ -1,0 +1,22 @@
+Index.html>
+
+    /* For name */
+
+    h1 {
+        text-align:center;
+        color: skyblue;
+        font:Courier, monospace ;
+        font-size:100px;
+    }
+
+    /* The code below aligns all the sections horizontally on the bottom. */
+    .section-container {
+        display:flex;
+        justify-content:space-between;
+    }
+
+    /* The code below a solid black border to section and puts space between them (the margin). */
+    .section {
+        border: 5px rgb(156, 210, 255) solid;
+        margin:5px;
+    }
