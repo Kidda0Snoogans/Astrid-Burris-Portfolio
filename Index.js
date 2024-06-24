@@ -7,3 +7,4 @@ Intro.addEventListener ("click", function() {
     French_Intro.style.display = "block"
     Intro.style.display = "none"
 })
+
