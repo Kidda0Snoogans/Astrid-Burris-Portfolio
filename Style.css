@@ -3,10 +3,141 @@
     body {
         background-image: url("Pics/website back.bmp");
         background-repeat: no-repeat;
+        background-color: black;
     }
+
+/* For the nav bar */
+
+    nav {
+        text-align: center;
+    }
+
+    .Index,
+    .About_Me_Button,
+    .Contact_Button,
+    .Projects_Button,
+    .Sources_Button {
+        background-color: black;
+        border-color:skyblue;
+        color: skyblue;
+        font-size: medium;
+    }
+
+    /* Index Page
+    
+----------------
+    
+    */
 
 /* For the intro */
 
+    .Intro {
+        padding: 250px 0;
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
     .French_Intro {
         display: none;
+        padding: 250px 0;
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+/* For the Intro to the basics */
+
+    .Basics {
+        vertical-align: bottom;
+        text-align: center;
+        padding-top: 200px;
+        padding: 300px 0;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+/* For the Basics */
+
+    .Bestie,
+    .Movie,
+    .TV {
+        display: flex;
+        padding-bottom: 75px;
+    }
+
+/* For the text about Rowan */
+
+    .Row_Text,
+    .Movie_Text,
+    .Orel_Text {
+        font-size: x-large;
+        display: flex;
+        font-family: 'Brush Script MT', cursive;
+        text-align: center;
+        padding-top: 300px;
+        color: skyblue;
+    }
+
+/* For the pic of Rowan */
+
+    .Row_Pic,
+    .Movie_Pic,
+    .Orel_Pic {
+        display: flex;
+    }
+
+    /* About Me Page 
+    
+----------------
+    
+    */
+
+    .Childhood,
+    .Middle_School,
+    .High_School {
+        display: flex;
+    }
+
+/* For the title */
+
+.Me_Title {  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: skyblue;
+    text-align: center;
+}
+
+
+/* For the pic of me wearing a House of 1000 Corpses */
+
+    .Corpses_Pic,
+    .Hallows_Selfie,
+    .Catapult_Pic {
+        padding-top: 25px;
+        width: 200px;
+        padding: 25px;
+    }
+
+/* For the text */
+
+    .Childhood_Text,
+    .Middle_School_Text,
+    .High_School_Text {
+        padding-top: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: x-large;
+        color: skyblue;
+    }
+
+    /* Contact Me page
+
+--------------------------    
+    
+    */
+
+/* For the Logos */
+
+    .Git_Logo,
+    .Linke_Logo,
+    .Gmail_Logo {
+        border-radius: 50%;
+        width: 250px;
     }
