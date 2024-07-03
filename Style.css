@@ -63,7 +63,7 @@
         padding-bottom: 75px;
     }
 
-/* For the text about Rowan */
+/* For the text about Basics */
 
     .Row_Text,
     .Movie_Text,
@@ -76,7 +76,7 @@
         color: skyblue;
     }
 
-/* For the pic of Rowan */
+/* For the Basics pic */
 
     .Row_Pic,
     .Movie_Pic,
@@ -124,7 +124,7 @@
         padding-top: 25px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: x-large;
-        color: skyblue;
+        color: cyan;
     }
 
     /* Contact Me page
@@ -141,3 +141,41 @@
         border-radius: 50%;
         width: 250px;
     }
+
+    /* Projects page
+
+--------------------------    
+    
+    */
+
+/* For the txt */
+
+    .Mac_Project_Text,
+    .CYOA_Text,
+    .Quiz_Text,
+    .Wire_Text {
+        text-align: center;
+        text-decoration-line: none;
+        font-family: 'Brush Script MT', cursive;
+        color: aliceblue;
+    }
+
+/* For the pics */
+
+    .Mac_Project_Pic,
+    .CYOA_Pic,
+    .Quiz_Pic,
+    .Wire_Pic {
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    /* Sources page
+
+--------------------------    
+    
+    */
+
